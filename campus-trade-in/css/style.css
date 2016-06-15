@@ -44,7 +44,7 @@ a:focus {
   -moz-transition: all 0.5s ease;
 }
 .navbar-default .navbar-brand {
-  color: #697ea4;
+  color: #2780e3;
   font-size: 30px;
   font-family: 'Lobster Two', cursive;
   font-weight: 900;
@@ -54,13 +54,13 @@ a:focus {
   cursor: pointer;
 }
 .navbar-default .navbar-brand:hover {
-  color: #697ea4;
+  color: #2780e3;
 }
 .navbar-default .navbar-brand:active {
-  color: #697ea4;
+  color: #2780e3;
 }
 .navbar-default .navbar-brand:visited {
-  color: #697ea4;
+  color: #2780e3;
 }
 .navbar-default .navbar-brand span {
   height: 25px;
@@ -92,12 +92,12 @@ a:focus {
   -moz-transition: all 0.5s ease;
 }
 .navbar-right li a:hover {
-  color: #697ea4 !important;
+  color: #2780e3 !important;
   text-decoration: underline;
 }
 .navbar-right li a:active {
   border: none;
-  color: #697ea4;
+  color: #2780e3;
   text-decoration: none;
 }
 .navbar-right li a:visited {
@@ -107,14 +107,14 @@ a:focus {
 }
 /* header section */
 .header {
-  height: 800px;
+  height: 700px;
   width: 100%;
   background-image: url('../assets/header/1.jpg');
   background-size: cover;
   background-position: center;
 }
 .header .overlayHeader {
-  height: 800px;
+  height: 700px!important;
   width: 100%;
   background-color: rgba(0, 0, 0, 0.5);
 }
@@ -171,9 +171,9 @@ a:focus {
   height: 55px;
   width: 200px;
   border-radius: 0px;
-  background-color: #697ea4;
+  background-color: #2780e3;
   color: #fff;
-  border: 3px solid #697ea4;
+  border: 3px solid #2780e3;
   border-left: none;
   font-size: 14px;
   font-weight: 400;
@@ -186,7 +186,7 @@ a:focus {
 }
 .header .overlayHeader form button:hover {
   color: #fff;
-  background-color: #697ea4;
+  background-color: #2780e3;
 }
 /* modal form section */
 .itemModelForms {
@@ -220,11 +220,11 @@ a:focus {
   border-right: 1px solid #ddd;
   height: 56px;
   border-bottom: 1px solid #ddd;
-  color: #697ea4;
+  color: #2780e3;
   background-color: #eee;
 }
 .itemModelForms ul .itemActive li {
-  background-color: #697ea4;
+  background-color: #2780e3;
   color: #fff!important;
 }
 .itemModelForms .itemLogin {
@@ -266,9 +266,9 @@ a:focus {
   height: 55px;
   width: 100%;
   border-radius: 0px;
-  background-color: #697ea4;
+  background-color: #2780e3;
   color: #fff;
-  border: 3px solid #697ea4;
+  border: 3px solid #2780e3;
   border-left: none;
   font-size: 14px;
   font-weight: 400;
@@ -282,7 +282,7 @@ a:focus {
 }
 .itemModelForms .itemLogin button:hover {
   color: #fff;
-  background-color: #697ea4;
+  background-color: #2780e3;
 }
 .itemModelForms .itemSignUp {
   margin: 130px auto!important;
@@ -323,9 +323,9 @@ a:focus {
   height: 55px;
   width: 100%;
   border-radius: 0px;
-  background-color: #697ea4;
+  background-color: #2780e3;
   color: #fff;
-  border: 3px solid #697ea4;
+  border: 3px solid #2780e3;
   border-left: none;
   font-size: 14px;
   font-weight: 400;
@@ -339,7 +339,7 @@ a:focus {
 }
 .itemModelForms .itemSignUp button:hover {
   color: #fff;
-  background-color: #697ea4;
+  background-color: #2780e3;
 }
 .itemModelForms .itemSignUp .itemSelect {
   color: #999!important;
@@ -420,8 +420,23 @@ a:focus {
   .header .overlayHeader form button {
     margin-left: 0px;
     margin: 0 auto;
-    display: table;
+    display: none;
     float: none;
+  }
+  .errspan {
+    float: right;
+    margin-right: 20px;
+    margin-top: -35px;
+    position: relative;
+    z-index: 2;
+    color: #272727;
+    cursor: pointer;
+  }
+  .navbar li a {
+    color: #fff!important;
+  }
+  .navbar li a:hover {
+    color: #FFF!important;
   }
 }
 @media screen and (min-width: 290px) and (max-width: 480px) {
@@ -470,6 +485,30 @@ a:focus {
   }
   .navbar-right li:nth-child(2) {
     border: none;
+  }
+  .navbar-toggle {
+    position: relative;
+    float: right;
+    padding: 9px 10px;
+    margin-top: 19px;
+    margin-right: 15px;
+    margin-bottom: 8px;
+    background-color: #2780E3;
+    background-image: none;
+    border: 1px solid #2780E3;
+    border-radius: 0px;
+  }
+  .navbar-toggle:hover {
+    background-color: #2780E3;
+  }
+  .navbar-toggle:active {
+    background-color: #2780E3;
+  }
+  .navbar-toggle:visited {
+    background-color: #2780E3;
+  }
+  .navbar-default .navbar-toggle .icon-bar {
+    background-color: #fff;
   }
   /* header section */
   .header .overlayHeader h1 {

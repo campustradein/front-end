@@ -17,9 +17,8 @@
 
 /* 	Default Variables  */ 
 
-	@defaultThemeColor: #697EA4;
+	@defaultThemeColor: #2780E3;
 	@fontFamily:'Lato', sans-serif;
-
 
 /*  Default Mixins  */	
 
@@ -114,13 +113,13 @@
 /* header section */
 
 	.header{
-		height:800px;
+		height:700px;
 		width:100%;
 		background-image:url('../assets/header/1.jpg');
 		background-size:cover;
 		background-position:center;
 		.overlayHeader{
-			height:800px;
+			height:700px!important;
 			width:100%;
 			background-color:rgba(0,0,0,0.5);
 			h1{
@@ -379,8 +378,23 @@
 	.header .overlayHeader form button{
 		margin-left:0px;
 	    margin: 0 auto;
-	    display: table;
+	    display: none;
 	    float: none;
+	}
+	.errspan {
+	    float: right;
+	    margin-right: 20px;
+	    margin-top: -35px;
+	    position: relative;
+	    z-index: 2;
+	    color: #272727;
+    	cursor: pointer;
+	}
+	.navbar li a{
+		color:#fff!important;
+		&:hover{
+			color:#FFF!important;
+		}
 	}
 }
 
@@ -431,6 +445,30 @@
 	}
 	.navbar-right li:nth-child(2){
 		border:none;
+	}
+	.navbar-toggle {
+	    position: relative;
+	    float: right;
+	    padding: 9px 10px;
+	    margin-top: 19px;
+	    margin-right: 15px;
+	    margin-bottom: 8px;
+	    background-color: #2780E3;
+	    background-image: none;
+	    border: 1px solid #2780E3;
+	    border-radius: 0px;
+	    &:hover{
+	    	background-color: #2780E3;
+	    }
+	    &:active{
+	    	background-color: #2780E3;
+	    }
+	    &:visited{
+	    	background-color: #2780E3;
+	    }
+	}
+	.navbar-default .navbar-toggle .icon-bar {
+	    background-color: #fff;
 	}
 
 	/* header section */
