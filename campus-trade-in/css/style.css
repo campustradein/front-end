@@ -120,7 +120,7 @@ a:focus {
 }
 .header .overlayHeader h1 {
   letter-spacing: 9px;
-  font-size: 48px;
+  font-size: 52px;
   font-family: 'Roboto', sans-serif;
   font-weight: 500;
   color: #fff;
@@ -188,160 +188,53 @@ a:focus {
   background-color: #2780e3;
 }
 /* modal form section */
-.itemModelForms {
-  height: auto;
-  width: 500px;
-  background-color: #fff;
+.modalCustom ul {
   margin: 100px auto;
+  display: table;
+  list-style: none;
+  margin-bottom: 10px;
+}
+.modalCustom ul li {
+  float: left;
+  color: #fff;
+  text-transform: uppercase;
+  text-align: center;
+  padding-left: 26px;
+  padding-right: 52px;
+  cursor: pointer;
+}
+.modalCustom ul li a {
+  color: #fff;
+}
+.modalCustom ul li a:hover {
+  color: #fff;
+}
+.modalCustom .itemModelForms {
+  height: 500px;
+  width: 400px;
+  background-color: #fff;
+  margin: 12px auto;
   float: none;
   cursor: pointer;
   position: absolute;
   left: 0px;
   right: 0px;
   padding: 0px;
-  background-color: #eee;
-  /* login form */
-  /* item Sign up */
 }
-.itemModelForms ul {
-  list-style: none;
-  width: 100%;
-  padding: 0px;
-}
-.itemModelForms ul li {
-  width: 50%;
-  font-size: 14px;
-  font-weight: 600;
-  text-transform: uppercase;
-  float: left;
-  text-align: center;
-  padding-top: 17px;
-  border-right: 1px solid #ddd;
-  height: 56px;
-  border-bottom: 1px solid #ddd;
-  color: #2780e3;
-  background-color: #eee;
-}
-.itemModelForms ul .itemActive li {
-  background-color: #2780e3;
-  color: #fff!important;
-}
-.itemModelForms .itemLogin {
-  margin: 130px auto!important;
+.modalCustom .itemModelForms .itemLoginForm button {
+  height: 50px;
+  width: 300px;
+  margin: 25px auto;
   display: table;
   float: none;
-}
-.itemModelForms .itemLogin label {
-  color: #999;
-  font-size: 14px;
-  font-weight: 500;
+  background-color: #3B5998;
+  color: #fff;
+  font-family: 'Raleway';
   letter-spacing: 1px;
-}
-.itemModelForms .itemLogin .form-control {
-  display: block;
-  min-width: 393px;
-  font-family: 'Lato', sans-serif;
-  height: 55px;
-  padding: 6px 12px;
-  font-size: 14px;
-  padding: 0px 20px 0px 20px;
-  line-height: 1.42857143;
-  color: #000!important;
-  background-color: #fff;
-  background-image: none;
   border: none;
-  border-radius: 0px;
-  transition: all 0.5s ease;
-  -webkit-transition: all 0.5s ease;
-  -o-transition: all 0.5s ease;
-  -moz-transition: all 0.5s ease;
-  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
-  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
-  -webkit-transition: border-color ease-in-out 0.15s, -webkit-box-shadow ease-in-out 0.15s;
-  -o-transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s;
-  transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s;
 }
-.itemModelForms .itemLogin button {
-  height: 55px;
-  width: 100%;
-  border-radius: 0px;
-  background-color: #2780e3;
-  color: #fff;
-  border: 3px solid #2780e3;
-  border-left: none;
-  font-size: 14px;
-  font-weight: 400;
-  text-transform: uppercase;
-  letter-spacing: 2px;
-  margin-top: 25px;
-  transition: all 0.5s ease;
-  -webkit-transition: all 0.5s ease;
-  -o-transition: all 0.5s ease;
-  -moz-transition: all 0.5s ease;
-}
-.itemModelForms .itemLogin button:hover {
-  color: #fff;
-  background-color: #2780e3;
-}
-.itemModelForms .itemSignUp {
-  margin: 130px auto!important;
-  display: table;
-  float: none;
-}
-.itemModelForms .itemSignUp label {
-  color: #999;
-  font-size: 14px;
-  font-weight: 500;
-  letter-spacing: 1px;
-}
-.itemModelForms .itemSignUp .form-control {
-  display: block;
-  min-width: 393px;
-  font-family: 'Lato', sans-serif;
-  height: 55px;
-  padding: 6px 12px;
-  font-size: 14px;
-  padding: 0px 20px 0px 20px;
-  line-height: 1.42857143;
-  color: #000!important;
-  background-color: #fff;
-  background-image: none;
-  border: none;
-  border-radius: 0px;
-  transition: all 0.5s ease;
-  -webkit-transition: all 0.5s ease;
-  -o-transition: all 0.5s ease;
-  -moz-transition: all 0.5s ease;
-  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
-  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
-  -webkit-transition: border-color ease-in-out 0.15s, -webkit-box-shadow ease-in-out 0.15s;
-  -o-transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s;
-  transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s;
-}
-.itemModelForms .itemSignUp button {
-  height: 55px;
-  width: 100%;
-  border-radius: 0px;
-  background-color: #2780e3;
-  color: #fff;
-  border: 3px solid #2780e3;
-  border-left: none;
-  font-size: 14px;
-  font-weight: 400;
-  text-transform: uppercase;
-  letter-spacing: 2px;
-  margin-top: 25px;
-  transition: all 0.5s ease;
-  -webkit-transition: all 0.5s ease;
-  -o-transition: all 0.5s ease;
-  -moz-transition: all 0.5s ease;
-}
-.itemModelForms .itemSignUp button:hover {
-  color: #fff;
-  background-color: #2780e3;
-}
-.itemModelForms .itemSignUp .itemSelect {
-  color: #999!important;
+.modalCustom .itemModelForms .itemLoginForm button span {
+  padding-right: 10px;
 }
 /* ====================================================
 

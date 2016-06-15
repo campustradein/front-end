@@ -43,68 +43,37 @@
 		</nav>	
 		<!-- login/sign up form modal -->
 		<!-- Modal -->
-		<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+		<div class="modal fade modalCustom" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
 		  <div class="container">
 		  	<div class="row">
-		  		<div class="col-lg-6 itemModelForms">
-		  			<ul id="activator" role="tablist">
-		  				<a href="#login" aria-controls="login" role="tab" data-toggle="tab" class="itemActive">
-			  				<li role="presentation" class="active">
-		  						LOG IN
-			  				</li>
+		  		<ul role="tablist">
+		  			<li role="presentation" class="active">
+		  				<a href="#login" aria-controls="login" role="tab" data-toggle="tab">
+		  					LOG IN
 		  				</a>
+		  			</li>
+		  			<li role="presentation">
 		  				<a href="#signup" aria-controls="signup" role="tab" data-toggle="tab">
-			  				<li role="presentation">
-		  						SIGN UP
-			  				</li>
+		  					SIGN UP
 		  				</a>
-		  			</ul>
-		  			<div class="tab-content">
-		  				<!-- login form -->
-					    <div role="tabpanel" class="tab-pane active" id="login">
-			    			<div class="itemLogin">
-			    				<form>
-			    					<div class="form-group">
-									    <label>Username or Email address *</label>
-									    <input type="email" class="form-control" required max-length="20">
-								  	</div>
-								  	<div class="form-group">
-									    <label>Password *</label>
-									    <input type="text" class="form-control" required max-length="20">
-								  	</div>
-								  	<button type="submit" class="btn btn-default">LOGIN</button>
-			    				</form>
-			    			</div>
-					    </div>
-					    <!-- sign up form -->
-					    <div role="tabpanel" class="tab-pane" id="signup">
-					    	<div class="itemSignUp">
-					    		<form>
-			    					<div class="form-group">
-									    <label>Username or Email*</label>
-									    <input type="email" class="form-control" required max-length="20">
-								  	</div>
-								  	<div class="form-group">
-									    <label>Password *</label>
-									    <input type="text" class="form-control" required max-length="20">
-								  	</div>
-								  	<div class="form-group">
-									    <label>Confirm Password *</label>
-									    <input type="text" class="form-control" required max-length="20">
-								  	</div>
-								  	<div class="form-group">
-									    <label>Select college you're attending *</label>
-									   	<select class="form-control itemSelect">
-											<option>Witchita State University</option>
-											<option>Kansas State University</option>
-											<option>Butler State University</option>
-									   	</select>
-								  	</div>
-								  	<button type="submit" class="btn btn-default">SIGN UP</button>
-			    				</form>
-					    	</div>
-					    </div>
-					</div>
+		  			</li>
+		  		</ul>
+		  		<div class="col-lg-6 itemModelForms tab-content">
+		  			<!-- login form -->
+				    <div role="tabpanel" class="tab-pane active itemLoginForm" id="login">
+				    	<form>
+				    		<button> 
+					    		<span>
+					    			<i class="fa fa-facebook-official" aria-hidden="true"></i>
+					    		</span>
+					    		Log In with facebook 
+					    	</button>
+				    	</form>
+				    </div>
+				    <!-- signup form -->
+				    <div role="tabpanel" class="tab-pane" id="signup">
+
+				    </div>
 		  		</div>
 		  	</div>
 		  </div>	
