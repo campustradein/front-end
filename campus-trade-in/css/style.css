@@ -1,0 +1,496 @@
+/* ============================== 
+	
+	Project Name : Campus Trade In
+	Author 		 : Campus Trade In
+	Author URI   : https://www.campustradein.com/
+	Project Last Updated : 13/06/2016
+	
+	CSS Details  : 
+
+	1. Default Variables 
+	2. navigation 
+	3. header section
+	4. login/signup form modal
+
+   ============================== */
+/* 	Default Variables  */
+/*  Default Mixins  */
+.transitions {
+  transition: all 0.5s ease;
+  -webkit-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+}
+/*	Default Settings */
+body {
+  font-family: 'Lato', sans-serif;
+}
+a,
+a:active,
+a:focus {
+  outline: none;
+}
+/* 	Navigation Section */
+.navbar-default {
+  background-color: #fff;
+  border-radius: 0px;
+  height: 77px;
+  margin-bottom: 0px;
+  padding-bottom: 0px;
+  border: none;
+  transition: all 0.5s ease;
+  -webkit-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+}
+.navbar-default .navbar-brand {
+  color: #697ea4;
+  font-size: 30px;
+  font-family: 'Lobster Two', cursive;
+  font-weight: 900;
+  padding-left: 100px;
+  padding-top: 27px;
+  letter-spacing: 1px;
+  cursor: pointer;
+}
+.navbar-default .navbar-brand:hover {
+  color: #697ea4;
+}
+.navbar-default .navbar-brand:active {
+  color: #697ea4;
+}
+.navbar-default .navbar-brand:visited {
+  color: #697ea4;
+}
+.navbar-default .navbar-brand span {
+  height: 25px;
+  width: 20px;
+  background-color: #697EA4;
+  padding: 10px 20px 10px 20px;
+  color: #fff;
+  text-align: center;
+}
+.navbar-right {
+  margin-right: 100px;
+}
+.navbar-right li:nth-child(2) {
+  border-right: 1px solid #e7e7e7;
+}
+.navbar-right li {
+  height: 100%;
+  width: 109px;
+  text-align: center;
+  padding-top: 11px;
+  cursor: pointer;
+  border-left: 1px solid #ddd;
+}
+.navbar-right li a {
+  color: #999999!important;
+  transition: all 0.5s ease;
+  -webkit-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+}
+.navbar-right li a:hover {
+  color: #697ea4 !important;
+  text-decoration: underline;
+}
+.navbar-right li a:active {
+  border: none;
+  color: #697ea4;
+  text-decoration: none;
+}
+.navbar-right li a:visited {
+  border: none;
+  color: #999;
+  text-decoration: none;
+}
+/* header section */
+.header {
+  height: 800px;
+  width: 100%;
+  background-image: url('../assets/header/1.jpg');
+  background-size: cover;
+  background-position: center;
+}
+.header .overlayHeader {
+  height: 800px;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+.header .overlayHeader h1 {
+  letter-spacing: 9px;
+  font-size: 48px;
+  font-family: 'Lato', sans-serif;
+  font-weight: 600;
+  color: #fff;
+  text-align: center;
+  text-transform: uppercase;
+  padding-top: 300px;
+  margin-bottom: 0px;
+  margin-top: 0px;
+}
+.header .overlayHeader h4 {
+  font-family: 'Lato', sans-serif;
+  font-size: 18px;
+  color: #fff;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+.header .overlayHeader form {
+  margin: 80px auto;
+  display: table;
+  float: none;
+}
+.header .overlayHeader form .form-control {
+  display: block;
+  min-width: 600px;
+  font-family: 'Lato', sans-serif;
+  height: 55px;
+  padding: 6px 12px;
+  font-size: 14px;
+  padding: 0px 20px 0px 20px;
+  line-height: 1.42857143;
+  color: #000!important;
+  background-color: #fff;
+  background-image: none;
+  border: 2px solid #fff;
+  border-radius: 0px;
+  transition: all 0.5s ease;
+  -webkit-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+  -webkit-transition: border-color ease-in-out 0.15s, -webkit-box-shadow ease-in-out 0.15s;
+  -o-transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s;
+  transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s;
+}
+.header .overlayHeader form button {
+  height: 55px;
+  width: 200px;
+  border-radius: 0px;
+  background-color: #697ea4;
+  color: #fff;
+  border: 3px solid #697ea4;
+  border-left: none;
+  font-size: 14px;
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  transition: all 0.5s ease;
+  -webkit-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+}
+.header .overlayHeader form button:hover {
+  color: #fff;
+  background-color: #697ea4;
+}
+/* modal form section */
+.itemModelForms {
+  height: auto;
+  width: 500px;
+  background-color: #fff;
+  margin: 100px auto;
+  float: none;
+  cursor: pointer;
+  position: absolute;
+  left: 0px;
+  right: 0px;
+  padding: 0px;
+  background-color: #eee;
+  /* login form */
+  /* item Sign up */
+}
+.itemModelForms ul {
+  list-style: none;
+  width: 100%;
+  padding: 0px;
+}
+.itemModelForms ul li {
+  width: 50%;
+  font-size: 14px;
+  font-weight: 600;
+  text-transform: uppercase;
+  float: left;
+  text-align: center;
+  padding-top: 17px;
+  border-right: 1px solid #ddd;
+  height: 56px;
+  border-bottom: 1px solid #ddd;
+  color: #697ea4;
+  background-color: #eee;
+}
+.itemModelForms ul .itemActive li {
+  background-color: #697ea4;
+  color: #fff!important;
+}
+.itemModelForms .itemLogin {
+  margin: 130px auto!important;
+  display: table;
+  float: none;
+}
+.itemModelForms .itemLogin label {
+  color: #999;
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: 1px;
+}
+.itemModelForms .itemLogin .form-control {
+  display: block;
+  min-width: 393px;
+  font-family: 'Lato', sans-serif;
+  height: 55px;
+  padding: 6px 12px;
+  font-size: 14px;
+  padding: 0px 20px 0px 20px;
+  line-height: 1.42857143;
+  color: #000!important;
+  background-color: #fff;
+  background-image: none;
+  border: none;
+  border-radius: 0px;
+  transition: all 0.5s ease;
+  -webkit-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+  -webkit-transition: border-color ease-in-out 0.15s, -webkit-box-shadow ease-in-out 0.15s;
+  -o-transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s;
+  transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s;
+}
+.itemModelForms .itemLogin button {
+  height: 55px;
+  width: 100%;
+  border-radius: 0px;
+  background-color: #697ea4;
+  color: #fff;
+  border: 3px solid #697ea4;
+  border-left: none;
+  font-size: 14px;
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin-top: 25px;
+  transition: all 0.5s ease;
+  -webkit-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+}
+.itemModelForms .itemLogin button:hover {
+  color: #fff;
+  background-color: #697ea4;
+}
+.itemModelForms .itemSignUp {
+  margin: 130px auto!important;
+  display: table;
+  float: none;
+}
+.itemModelForms .itemSignUp label {
+  color: #999;
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: 1px;
+}
+.itemModelForms .itemSignUp .form-control {
+  display: block;
+  min-width: 393px;
+  font-family: 'Lato', sans-serif;
+  height: 55px;
+  padding: 6px 12px;
+  font-size: 14px;
+  padding: 0px 20px 0px 20px;
+  line-height: 1.42857143;
+  color: #000!important;
+  background-color: #fff;
+  background-image: none;
+  border: none;
+  border-radius: 0px;
+  transition: all 0.5s ease;
+  -webkit-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+  -webkit-transition: border-color ease-in-out 0.15s, -webkit-box-shadow ease-in-out 0.15s;
+  -o-transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s;
+  transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s;
+}
+.itemModelForms .itemSignUp button {
+  height: 55px;
+  width: 100%;
+  border-radius: 0px;
+  background-color: #697ea4;
+  color: #fff;
+  border: 3px solid #697ea4;
+  border-left: none;
+  font-size: 14px;
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin-top: 25px;
+  transition: all 0.5s ease;
+  -webkit-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+}
+.itemModelForms .itemSignUp button:hover {
+  color: #fff;
+  background-color: #697ea4;
+}
+.itemModelForms .itemSignUp .itemSelect {
+  color: #999!important;
+}
+/* ====================================================
+
+		Media Quries for mobile and tablet devices
+
+   ==================================================== */
+@media screen and (min-width: 768px) and (max-width: 992px) {
+  /* header section */
+  .header .overlayHeader h1 {
+    font-size: 32px;
+  }
+  .header .overlayHeader form .form-control {
+    min-width: 400px;
+  }
+}
+@media screen and (min-width: 480px) and (max-width: 768px) {
+  /* navigation section */
+  .navbar-default .navbar-brand {
+    padding-left: 10px;
+  }
+  .navbar-toggle {
+    position: relative;
+    float: right;
+    padding: 9px 10px;
+    margin-top: 19px;
+    margin-right: 15px;
+    margin-bottom: 8px;
+    background-color: transparent;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 0px;
+  }
+  .navbar-default .navbar-collapse,
+  .navbar-default .navbar-form {
+    margin-top: 14px;
+    background-color: #697EA4;
+    border-color: #e7e7e7;
+  }
+  .navbar-right {
+    margin-right: 0px;
+    margin: 0 auto;
+    display: table;
+    float: none;
+  }
+  .navbar-right li {
+    border: none;
+    height: 100%;
+    width: 109px;
+    text-align: center;
+    padding-top: 11px;
+    cursor: pointer;
+  }
+  .navbar-right li {
+    border: none;
+    height: 100%;
+    width: 109px;
+    text-align: center;
+    padding-top: 11px;
+    cursor: pointer;
+    color: #FFF;
+  }
+  .navbar-right li:nth-child(2) {
+    border: none;
+  }
+  /* header section */
+  .header .overlayHeader h1 {
+    font-size: 24px;
+  }
+  .header .overlayHeader h4 {
+    font-size: 12px;
+  }
+  .header .overlayHeader form .form-control {
+    min-width: 300px;
+  }
+  .header .overlayHeader form button {
+    margin-left: 0px;
+    margin: 0 auto;
+    display: table;
+    float: none;
+  }
+}
+@media screen and (min-width: 290px) and (max-width: 480px) {
+  /* navigation section */
+  .navbar-default .navbar-brand {
+    padding-left: 10px;
+  }
+  .navbar-toggle {
+    position: relative;
+    float: right;
+    padding: 9px 10px;
+    margin-top: 19px;
+    margin-right: 15px;
+    margin-bottom: 8px;
+    background-color: transparent;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 0px;
+  }
+  .navbar-default .navbar-collapse,
+  .navbar-default .navbar-form {
+    margin-top: 14px;
+    background-color: #697EA4;
+    border-color: #e7e7e7;
+  }
+  .navbar-right {
+    margin-right: 0px;
+    margin: 0 auto;
+    display: table;
+    float: none;
+  }
+  .navbar-right li {
+    border: none;
+    height: 100%;
+    width: 109px;
+    text-align: center;
+    padding-top: 11px;
+    cursor: pointer;
+    color: #FFF;
+  }
+  .navbar li a {
+    color: #fff!important;
+  }
+  .navbar li a:hover {
+    color: #FFF!important;
+  }
+  .navbar-right li:nth-child(2) {
+    border: none;
+  }
+  /* header section */
+  .header .overlayHeader h1 {
+    font-size: 20px;
+  }
+  .header .overlayHeader h4 {
+    font-size: 10px;
+  }
+  .header .overlayHeader form .form-control {
+    min-width: 300px;
+  }
+  .errspan {
+    float: right;
+    margin-right: 6px;
+    margin-top: -35px;
+    position: relative;
+    z-index: 2;
+    color: #272727;
+    cursor: pointer;
+  }
+  .header .overlayHeader form button {
+    display: none;
+  }
+}
