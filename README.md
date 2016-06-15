@@ -1,5 +1,10 @@
-Issues Left 
+<h3>  Issues Left </h3>
 
-form validation
-mobile screen hamburger background color
-github repository direct push files
+<ol>
+  <li>form validation</li>
+  <li>mobile screen hamburger background color</li>
+  <li>github repository direct push files</li>
+</ol>
+
+
+
