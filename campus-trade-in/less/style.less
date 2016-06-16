@@ -204,15 +204,20 @@
     			padding-right: 52px;
     			cursor:pointer;
     			a{
-    				color:#fff;
+    				color:grey;
     				&:hover{
     					color:#fff;
     				}
     			}
 			}
 		}
+		.itemActive{
+			a{
+				color:#fff;
+			}
+		}
 		.itemModelForms{
-		    height: 500px;
+		    height:auto;
 	    	width: 400px;
 		    background-color: #fff;
 		    margin: 12px auto;
@@ -238,6 +243,37 @@
 		    			padding-right:10px;
 		    		}
 		    	}
+		    	p{
+		    		text-align:center;
+		    		color:#272727!important;
+		    	}
+		    	.form-control {
+				    display: block;
+				    margin: 0 auto;
+				    display: table;
+				    float: none;
+				    width: 300px;
+				    height: 50px;
+				    padding: 6px 12px;
+				    font-size: 14px;
+				    line-height: 1.42857143;
+				    color: #555;
+				    background-color: #fff;
+				    background-image: none;
+				    border: 1px solid #ccc;
+				    border-radius: 0px;
+				    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+				    box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+				    -webkit-transition: border-color ease-in-out .15s, -webkit-box-shadow ease-in-out .15s;
+				    -o-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+				    transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+				}
+				.formButton{
+					background-color:@defaultThemeColor;
+				}
+		    }
+		    .itemSignUpForm{
+		    	.itemLoginForm;
 		    }
 		}
 	}

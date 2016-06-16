@@ -43,6 +43,6 @@
     
 /* 3. activator */
 
-    $('#activator a').on('click', function(){
+    $('#activator li').on('click', function(){
         $(this).addClass('itemActive').siblings().removeClass('itemActive');
     });

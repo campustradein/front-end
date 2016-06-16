@@ -46,8 +46,8 @@
 		<div class="modal fade modalCustom" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
 		  <div class="container">
 		  	<div class="row">
-		  		<ul role="tablist">
-		  			<li role="presentation" class="active">
+		  		<ul role="tablist" id="activator">
+		  			<li role="presentation" class="active itemActive">
 		  				<a href="#login" aria-controls="login" role="tab" data-toggle="tab">
 		  					LOG IN
 		  				</a>
@@ -68,11 +68,31 @@
 					    		</span>
 					    		Log In with facebook 
 					    	</button>
+					    	<p>Or</p>
+					    	<input type="text" class="form-control" placeholder="Email" required>
+					    	<input type="password" class="form-control" placeholder="Password" required>
+					    	<button type="submit" class="formButton"> 
+					    		login
+					    	</button>
 				    	</form>
 				    </div>
 				    <!-- signup form -->
-				    <div role="tabpanel" class="tab-pane" id="signup">
-
+				    <div role="tabpanel" class="tab-pane itemSignUpForm" id="signup">
+				    	<form>
+				    		<button> 
+					    		<span>
+					    			<i class="fa fa-facebook-official" aria-hidden="true"></i>
+					    		</span>
+					    		Log In with facebook 
+					    	</button>
+					    	<p>Or</p>
+					    	<input type="text" class="form-control" placeholder="Full Name" required>
+					    	<input type="Email" class="form-control" placeholder="Email" required>
+					    	<input type="password" class="form-control" placeholder="Password" required>
+					    	<button type="submit" class="formButton"> 
+					    		Sign Up
+					    	</button>
+				    	</form>
 				    </div>
 		  		</div>
 		  	</div>
