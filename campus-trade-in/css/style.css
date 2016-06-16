@@ -252,7 +252,7 @@ a:focus {
   float: none;
   background-color: #3B5998;
   color: #fff;
-  font-family: 'Raleway';
+  font-family: 'Roboto', sans-serif;
   letter-spacing: 1px;
   border: none;
 }
@@ -299,7 +299,7 @@ a:focus {
   float: none;
   background-color: #3B5998;
   color: #fff;
-  font-family: 'Raleway';
+  font-family: 'Roboto', sans-serif;
   letter-spacing: 1px;
   border: none;
 }
@@ -343,7 +343,7 @@ a:focus {
   font-size: 27px;
   font-weight: 700;
   text-align: center;
-  font-family: 'Raleway';
+  font-family: 'Roboto', sans-serif;
   color: #000;
   text-transform: uppercase;
   letter-spacing: 1px;
@@ -387,6 +387,7 @@ a:focus {
   background-color: #272727;
   margin-top: 60px;
   margin-left: 11px;
+  padding: 0px;
 }
 .featuredBooks .containerMain .itemBookSingle2 {
   height: 300px;
@@ -394,6 +395,7 @@ a:focus {
   background-color: #272727;
   margin-top: 60px;
   margin-left: 11px;
+  padding: 0px;
   margin-left: 35px;
 }
 .featuredBooks .containerMain .itemBookSingle3 {
@@ -402,6 +404,7 @@ a:focus {
   background-color: #272727;
   margin-top: 60px;
   margin-left: 11px;
+  padding: 0px;
   margin-left: 35px;
 }
 .featuredBooks .containerMain .itemBookSingle4 {
@@ -410,6 +413,7 @@ a:focus {
   background-color: #272727;
   margin-top: 60px;
   margin-left: 11px;
+  padding: 0px;
   margin-left: 35px;
 }
 .featuredBooks .containerMain button {
