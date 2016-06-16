@@ -42,6 +42,7 @@ a:focus {
   -webkit-transition: all 0.5s ease;
   -o-transition: all 0.5s ease;
   -moz-transition: all 0.5s ease;
+  border-bottom: 1px solid #ddd;
 }
 .navbar-default .navbar-brand {
   color: #2780e3;
@@ -222,7 +223,8 @@ a:focus {
   cursor: pointer;
 }
 .modalCustom ul li a {
-  color: grey;
+  color: #4f4f4f;
+  font-weight: 700;
 }
 .modalCustom ul li a:hover {
   color: #fff;
@@ -331,6 +333,84 @@ a:focus {
 }
 .modalCustom .itemModelForms .itemSignUpForm .formButton {
   background-color: #2780e3;
+}
+/* Featured Books Section */
+.featuredBooks {
+  height: 650px;
+  width: 100%;
+}
+.featuredBooks .headingDefault {
+  font-size: 27px;
+  font-weight: 700;
+  text-align: center;
+  font-family: 'Raleway';
+  color: #000;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  padding-top: 60px;
+}
+.featuredBooks .itemControls {
+  height: 100px;
+  width: 100%;
+  position: relative;
+  top: 372px;
+  z-index: 99999;
+}
+.featuredBooks .itemControls .carousel-control.right {
+  background-image: none;
+}
+.featuredBooks .itemControls .carousel-control .glyphicon-chevron-left,
+.featuredBooks .itemControls .carousel-control .icon-prev {
+  color: #4f4f4f;
+  font-size: 18px;
+  font-weight: 300;
+  text-shadow: none;
+}
+.featuredBooks .itemControls .carousel-control .glyphicon-chevron-right,
+.featuredBooks .itemControls .carousel-control .icon-prev {
+  color: #4f4f4f;
+  font-size: 18px;
+  font-weight: 300;
+  text-shadow: none;
+}
+.featuredBooks .itemControls .carousel-control.left {
+  background-image: none;
+}
+.featuredBooks .containerMain {
+  margin: 0 auto;
+  float: none;
+  display: table;
+}
+.featuredBooks .containerMain .itemBookSingle {
+  height: 300px;
+  width: 200px;
+  background-color: #272727;
+  margin-top: 60px;
+  margin-left: 11px;
+}
+.featuredBooks .containerMain .itemBookSingle2 {
+  height: 300px;
+  width: 200px;
+  background-color: #272727;
+  margin-top: 60px;
+  margin-left: 11px;
+  margin-left: 35px;
+}
+.featuredBooks .containerMain .itemBookSingle3 {
+  height: 300px;
+  width: 200px;
+  background-color: #272727;
+  margin-top: 60px;
+  margin-left: 11px;
+  margin-left: 35px;
+}
+.featuredBooks .containerMain .itemBookSingle4 {
+  height: 300px;
+  width: 200px;
+  background-color: #272727;
+  margin-top: 60px;
+  margin-left: 11px;
+  margin-left: 35px;
 }
 /* ====================================================
 
