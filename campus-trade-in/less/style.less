@@ -310,10 +310,11 @@
 	    font-weight: 700;
 	    text-align: center;
 	    font-family: 'Roboto', sans-serif;
-	    color: #000;
+	    color: #333;
 	    text-transform: uppercase;
 	    letter-spacing: 1px;
-	    padding-top: 0px;
+	    padding-top: 70px;
+	    margin-top:0px;
 	}
 	.itemControls{
 	    height: 100px;
@@ -345,24 +346,36 @@
 		float:none;
 		display:table;
 		
-		.itemBookSingle{
-			height:300px;
+		.itemSingleBook{
+			cursor:pointer;
+			height:350px;
 			width:200px;
-			background-color:#272727;
 			margin-top:60px;
 			margin-left:11px;
 			padding:0px;
+			h6{
+			    margin-top: 0px;
+			    margin-bottom: 0px;
+			    text-align: center;
+			    color: #4f4f4f;
+			    font-size: 14px;
+			    font-weight: 500;
+			    font-family: 'Roboto';
+    			padding-top: 15px;
+    			cursor:pointer;
+			    line-height: 20px;
+			}
 		}
-		.itemBookSingle2{
-			.itemBookSingle;
+		.itemSingleBook2{
+			.itemSingleBook;
 			margin-left:35px;
 		}
-		.itemBookSingle3{
-			.itemBookSingle;
+		.itemSingleBook3{
+			.itemSingleBook;
 			margin-left:35px;
 		}
-		.itemBookSingle4{
-			.itemBookSingle;
+		.itemSingleBook4{
+			.itemSingleBook;
 			margin-left:35px;
 		}
 		button{
@@ -373,7 +386,9 @@
 		    width: 100px;
 		    background-color: #2780e3;
 		    color: #fff;
+	        position: relative;
 		    border: none;
+		    top: 48px;
 		}
 	}
 }

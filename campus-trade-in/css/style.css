@@ -344,10 +344,11 @@ a:focus {
   font-weight: 700;
   text-align: center;
   font-family: 'Roboto', sans-serif;
-  color: #000;
+  color: #333;
   text-transform: uppercase;
   letter-spacing: 1px;
-  padding-top: 0px;
+  padding-top: 70px;
+  margin-top: 0px;
 }
 .featuredBooks .itemControls {
   height: 100px;
@@ -381,40 +382,88 @@ a:focus {
   float: none;
   display: table;
 }
-.featuredBooks .containerMain .itemBookSingle {
-  height: 300px;
+.featuredBooks .containerMain .itemSingleBook {
+  cursor: pointer;
+  height: 350px;
   width: 200px;
-  background-color: #272727;
   margin-top: 60px;
   margin-left: 11px;
   padding: 0px;
 }
-.featuredBooks .containerMain .itemBookSingle2 {
-  height: 300px;
+.featuredBooks .containerMain .itemSingleBook h6 {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  text-align: center;
+  color: #4f4f4f;
+  font-size: 14px;
+  font-weight: 500;
+  font-family: 'Roboto';
+  padding-top: 15px;
+  cursor: pointer;
+  line-height: 20px;
+}
+.featuredBooks .containerMain .itemSingleBook2 {
+  cursor: pointer;
+  height: 350px;
   width: 200px;
-  background-color: #272727;
   margin-top: 60px;
   margin-left: 11px;
   padding: 0px;
   margin-left: 35px;
 }
-.featuredBooks .containerMain .itemBookSingle3 {
-  height: 300px;
+.featuredBooks .containerMain .itemSingleBook2 h6 {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  text-align: center;
+  color: #4f4f4f;
+  font-size: 14px;
+  font-weight: 500;
+  font-family: 'Roboto';
+  padding-top: 15px;
+  cursor: pointer;
+  line-height: 20px;
+}
+.featuredBooks .containerMain .itemSingleBook3 {
+  cursor: pointer;
+  height: 350px;
   width: 200px;
-  background-color: #272727;
   margin-top: 60px;
   margin-left: 11px;
   padding: 0px;
   margin-left: 35px;
 }
-.featuredBooks .containerMain .itemBookSingle4 {
-  height: 300px;
+.featuredBooks .containerMain .itemSingleBook3 h6 {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  text-align: center;
+  color: #4f4f4f;
+  font-size: 14px;
+  font-weight: 500;
+  font-family: 'Roboto';
+  padding-top: 15px;
+  cursor: pointer;
+  line-height: 20px;
+}
+.featuredBooks .containerMain .itemSingleBook4 {
+  cursor: pointer;
+  height: 350px;
   width: 200px;
-  background-color: #272727;
   margin-top: 60px;
   margin-left: 11px;
   padding: 0px;
   margin-left: 35px;
+}
+.featuredBooks .containerMain .itemSingleBook4 h6 {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  text-align: center;
+  color: #4f4f4f;
+  font-size: 14px;
+  font-weight: 500;
+  font-family: 'Roboto';
+  padding-top: 15px;
+  cursor: pointer;
+  line-height: 20px;
 }
 .featuredBooks .containerMain button {
   margin: 58px auto;
@@ -424,7 +473,9 @@ a:focus {
   width: 100px;
   background-color: #2780e3;
   color: #fff;
+  position: relative;
   border: none;
+  top: 48px;
 }
 /* ====================================================
 
