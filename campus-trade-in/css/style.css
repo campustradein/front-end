@@ -604,6 +604,61 @@ a:focus {
   .navbar li a:hover {
     color: #FFF!important;
   }
+  /* featured Books Section */
+  .featuredBooks {
+    height: 750px;
+  }
+  .containerMain {
+    width: 100%!important;
+  }
+  .itemSingleBook {
+    width: 100%!important;
+    margin-left: 0px!important;
+    margin: 60px auto!important;
+    float: none;
+    display: table;
+  }
+  .itemSingleBook img {
+    margin: 0 auto;
+    display: table;
+    float: none;
+  }
+  .itemSingleBook2 {
+    width: 100%!important;
+    margin-left: 0px!important;
+    margin: 60px auto!important;
+    float: none;
+    display: table;
+  }
+  .itemSingleBook2 img {
+    margin: 0 auto;
+    display: table;
+    float: none;
+  }
+  .itemSingleBook3 {
+    width: 100%!important;
+    margin-left: 0px!important;
+    margin: 60px auto!important;
+    float: none;
+    display: table;
+  }
+  .itemSingleBook3 img {
+    margin: 0 auto;
+    display: table;
+    float: none;
+  }
+  .itemSingleBook4 {
+    width: 100%!important;
+    margin-left: 0px!important;
+    margin: 60px auto!important;
+    float: none;
+    display: table;
+  }
+  .itemSingleBook4 img {
+    margin: 0 auto;
+    display: table;
+    float: none;
+  }
 }
 @media screen and (min-width: 290px) and (max-width: 480px) {
   /* navigation section */
@@ -701,5 +756,60 @@ a:focus {
   }
   .header .overlayHeader form button {
     display: none;
+  }
+  /* featured Books Section */
+  .featuredBooks {
+    height: 750px;
+  }
+  .containerMain {
+    width: 100%!important;
+  }
+  .itemSingleBook {
+    width: 100%!important;
+    margin-left: 0px!important;
+    margin: 60px auto!important;
+    float: none;
+    display: table;
+  }
+  .itemSingleBook img {
+    margin: 0 auto;
+    display: table;
+    float: none;
+  }
+  .itemSingleBook2 {
+    width: 100%!important;
+    margin-left: 0px!important;
+    margin: 60px auto!important;
+    float: none;
+    display: table;
+  }
+  .itemSingleBook2 img {
+    margin: 0 auto;
+    display: table;
+    float: none;
+  }
+  .itemSingleBook3 {
+    width: 100%!important;
+    margin-left: 0px!important;
+    margin: 60px auto!important;
+    float: none;
+    display: table;
+  }
+  .itemSingleBook3 img {
+    margin: 0 auto;
+    display: table;
+    float: none;
+  }
+  .itemSingleBook4 {
+    width: 100%!important;
+    margin-left: 0px!important;
+    margin: 60px auto!important;
+    float: none;
+    display: table;
+  }
+  .itemSingleBook4 img {
+    margin: 0 auto;
+    display: table;
+    float: none;
   }
 }
