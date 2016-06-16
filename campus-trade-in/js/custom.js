@@ -46,3 +46,47 @@
     $('#activator li').on('click', function(){
         $(this).addClass('itemActive').siblings().removeClass('itemActive');
     });
+
+
+    var owl = $("#owl-demo");
+    // Custom Navigation Events
+    $(".next").click(function(){
+        owl.trigger('owl.next');
+    })
+    $(".prev").click(function(){
+        owl.trigger('owl.prev');
+    })
+ 
+    owl.owlCarousel({
+     
+        // Most important owl features
+        items : 4,
+        itemsCustom : false,
+        itemsDesktop : [1199,4],
+        itemsDesktopSmall : [980,3],
+        itemsTablet: [768,2],
+        itemsTabletSmall: false,
+        itemsMobile : [479,1],
+        singleItem : false,
+        itemsScaleUp : false,
+
+        //Autoplay
+        autoPlay : true,
+        stopOnHover : false,
+
+        // Navigation
+        navigation : false,
+        rewindNav : true,
+        scrollPerPage : false,
+
+        // Responsive 
+        responsive: true,
+        responsiveRefreshRate : 200,
+        responsiveBaseWidth: window,
+
+        //Pagination
+        pagination : false,
+        paginationNumbers: false,
+
+    });
+

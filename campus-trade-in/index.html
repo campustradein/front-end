@@ -12,6 +12,8 @@
 		<link rel="stylesheet" type="text/css" href="css/animate.css">
 		<link rel="stylesheet" type="text/css" href="css/font-awesome.css">
 		<link rel="stylesheet" type="text/css" href="css/style.css">
+		<link rel="stylesheet" href="css/owl.carousel.css">
+		<link rel="stylesheet" href="css/owl.theme.css">
 		<!-- google fonts  -->
 		<link href='https://fonts.googleapis.com/css?family=Lobster+Two:400,400italic,700,700italic' rel='stylesheet' type='text/css'>
 		<link href='https://fonts.googleapis.com/css?family=Lato:400,100,100italic,300,300italic,400italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
@@ -121,6 +123,17 @@
 
 		<!-- Featured Books Section -->
 		<section class="featuredBooks">
+			<!-- Controls -->
+		    <div class="itemControls hidden-xs">
+		    	<a class="left carousel-control prev" role="button">
+					<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+					<span class="sr-only">Previous</span>
+				</a>
+			    <a class="right carousel-control next" role="button">
+				    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+				    <span class="sr-only">Next</span>
+		     	</a>
+		    </div>
 			<div class="container">
 				<div class="row">
 					<div class="col-lg-12">
@@ -128,46 +141,59 @@
 							Featured Books
 						</h1>
 					</div>
-					<!-- Controls -->
-				    <!-- <div class="itemControls hidden-xs">
-				    	<a class="left carousel-control" href="#" role="button" data-slide="prev">
-							<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-							<span class="sr-only">Previous</span>
-						</a>
-					    <a class="right carousel-control" href="#" role="button" data-slide="next">
-						    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-						    <span class="sr-only">Next</span>
-				     	</a>
-				    </div> -->
-					<div class="containerMain col-lg-10">
-						<div class="col-lg-3 itemSingleBook">
+					<div class="containerMain col-lg-10 owl-carousel owl-theme" id="owl-demo">
+						<div class="col-lg-3 itemSingleBook item">
 							<img src="https://placeholdit.imgix.net/~text?txtsize=33&txt=200%C3%97300&w=200&h=300">
 							<h6>
 								Gordman Sciley by Neil Armstrong
 							</h6>
 						</div>
-						<div class="col-lg-3 itemSingleBook2">
+						<div class="col-lg-3 itemSingleBook2 item">
 							<img src="https://placeholdit.imgix.net/~text?txtsize=33&txt=200%C3%97300&w=200&h=300">
 							<h6>
 								MiddleSex by Neil Armstrong
 							</h6>
 						</div>
-						<div class="col-lg-3 itemSingleBook3">
+						<div class="col-lg-3 itemSingleBook3 item">
 							<img src="https://placeholdit.imgix.net/~text?txtsize=33&txt=200%C3%97300&w=200&h=300">
 							<h6>
 								An Army of 100 Sciley by Neil Armstrong
 							</h6>
 						</div>
-						<div class="col-lg-3 itemSingleBook4">
+						<div class="col-lg-3 itemSingleBook4 item">
 							<img src="https://placeholdit.imgix.net/~text?txtsize=33&txt=200%C3%97300&w=200&h=300">
 							<h6>
 								Gilead - A Novel by Neil Armstrong
 							</h6>
 						</div>
-						<button>
-							See All
-						</button>
+						<div class="col-lg-3 itemSingleBook item">
+							<img src="https://placeholdit.imgix.net/~text?txtsize=33&txt=200%C3%97300&w=200&h=300">
+							<h6>
+								Gordman Sciley by Neil Armstrong
+							</h6>
+						</div>
+						<div class="col-lg-3 itemSingleBook2 item">
+							<img src="https://placeholdit.imgix.net/~text?txtsize=33&txt=200%C3%97300&w=200&h=300">
+							<h6>
+								MiddleSex by Neil Armstrong
+							</h6>
+						</div>
+						<div class="col-lg-3 itemSingleBook3 item">
+							<img src="https://placeholdit.imgix.net/~text?txtsize=33&txt=200%C3%97300&w=200&h=300">
+							<h6>
+								An Army of 100 Sciley by Neil Armstrong
+							</h6>
+						</div>
+						<div class="col-lg-3 itemSingleBook4 item">
+							<img src="https://placeholdit.imgix.net/~text?txtsize=33&txt=200%C3%97300&w=200&h=300">
+							<h6>
+								Gilead - A Novel by Neil Armstrong
+							</h6>
+						</div>
 					</div>
+					<button>
+						See All
+					</button>
 				</div>
 			</div>
 		</section>
@@ -178,9 +204,7 @@
 		<script src="js/morphext.js"></script>
 		<script src="js/backstretch.min.js"></script>
 		<script src="js/wow.js"></script>
-      	<script>
-	      new WOW().init();
-      	</script>
+		<script src="js/owl.carousel.js"></script>
 		<script src="js/custom.js"></script>
 	</body>
 </html>

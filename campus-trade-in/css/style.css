@@ -351,10 +351,9 @@ a:focus {
   margin-top: 0px;
 }
 .featuredBooks .itemControls {
-  height: 100px;
+  height: 650px;
   width: 100%;
-  position: relative;
-  top: 319px;
+  position: absolute;
   z-index: 99999;
 }
 .featuredBooks .itemControls .carousel-control.right {
@@ -387,7 +386,7 @@ a:focus {
   height: 350px;
   width: 200px;
   margin-top: 60px;
-  margin-left: 11px;
+  margin-left: 40px;
   padding: 0px;
 }
 .featuredBooks .containerMain .itemSingleBook h6 {
@@ -407,7 +406,7 @@ a:focus {
   height: 350px;
   width: 200px;
   margin-top: 60px;
-  margin-left: 11px;
+  margin-left: 40px;
   padding: 0px;
   margin-left: 35px;
 }
@@ -428,7 +427,7 @@ a:focus {
   height: 350px;
   width: 200px;
   margin-top: 60px;
-  margin-left: 11px;
+  margin-left: 40px;
   padding: 0px;
   margin-left: 35px;
 }
@@ -449,7 +448,7 @@ a:focus {
   height: 350px;
   width: 200px;
   margin-top: 60px;
-  margin-left: 11px;
+  margin-left: 40px;
   padding: 0px;
   margin-left: 35px;
 }
@@ -465,8 +464,8 @@ a:focus {
   cursor: pointer;
   line-height: 20px;
 }
-.featuredBooks .containerMain button {
-  margin: 58px auto;
+.featuredBooks button {
+  margin: 0px auto;
   display: table;
   float: none;
   height: 40px;
