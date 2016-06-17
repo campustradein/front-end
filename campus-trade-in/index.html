@@ -37,8 +37,8 @@
 		    <!-- Collect the nav links, forms, and other content for toggling -->
 		    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 		      <ul class="nav navbar-nav navbar-right">
-		        <li><a href="#" data-toggle="modal" data-target="#myModal">Register</a></li>
-		        <li><a href="#" data-toggle="modal" data-target="#myModal">Login</a></li>
+		        <li><a href="#" data-toggle="modal" data-target="#myModal" id="registerUser">Register</a></li>
+		        <li><a href="#" data-toggle="modal" data-target="#myModal" id="loginUser">Login</a></li>
 		      </ul>
 		    </div>
 		  </div>
@@ -55,12 +55,12 @@
 		  		<h6>Universal access to the world’s best education.</h6>
 		  		<ul role="tablist" id="activator">
 		  			<li role="presentation" class="active itemActive">
-		  				<a href="#login" aria-controls="login" role="tab" data-toggle="tab">
+		  				<a href="#login" aria-controls="login" role="tab" data-toggle="tab" id="targetLogInUser">
 		  					LOG IN
 		  				</a>
 		  			</li>
 		  			<li role="presentation">
-		  				<a href="#signup" aria-controls="signup" role="tab" data-toggle="tab">
+		  				<a href="#signup" aria-controls="signup" role="tab" data-toggle="tab" id="targetRegisterUser">
 		  					SIGN UP
 		  				</a>
 		  			</li>
@@ -73,7 +73,7 @@
 					    		<span>
 					    			<i class="fa fa-facebook-official" aria-hidden="true"></i>
 					    		</span>
-					    		Log In with facebook 
+					    		Log in with Facebook 
 					    	</button>
 					    	<p>Or</p>
 					    	<input type="text" class="form-control" placeholder="Email" required>
@@ -90,7 +90,7 @@
 					    		<span>
 					    			<i class="fa fa-facebook-official" aria-hidden="true"></i>
 					    		</span>
-					    		Log In with facebook 
+					    		Log in with Facebook 
 					    	</button>
 					    	<p>Or</p>
 					    	<input type="text" class="form-control" placeholder="Full Name" required>

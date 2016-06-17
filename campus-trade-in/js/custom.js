@@ -8,6 +8,7 @@
     3. activator on sign up or login form. when clicks it will activate the current button 
     4. Featured Books Carousel. see documentation ( http://www.owlgraphic.com/owlcarousel/ )
     5. Swing Scroll to top. Used for the arrow on the right side, which takes you up to the top
+    6. register and login link auto clicked while opening modal
 */
 
 /* 1. navigation scroll effect */
@@ -76,7 +77,7 @@
 
     });
 
-// navigation scroll/swing code you can customize it . see documentation for furhter details
+// 5. navigation scroll/swing code you can customize it . see documentation for furhter details
 
     $(".scroll").on('click',function(event){
          event.preventDefault();
@@ -91,4 +92,11 @@
          $('html,body').animate({scrollTop:dest}, 1000,'swing');
     });
 
-      
+// 6. Auto clicked
+
+    $('#registerUser').on('click', function(){
+        $('#targetRegisterUser').trigger('click');
+    });
+    $('#loginUser').on('click', function(){
+        $('#targetLogInUser').trigger('click');
+    });
