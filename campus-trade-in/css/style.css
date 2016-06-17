@@ -47,8 +47,8 @@ a:focus {
 .navbar-default .navbar-brand {
   color: #2780e3;
   font-size: 30px;
-  font-family: 'Lobster Two', cursive;
-  font-weight: 900;
+  font-family: 'Roboto';
+  font-weight: 300;
   padding-left: 100px;
   padding-top: 27px;
   letter-spacing: 1px;
@@ -74,16 +74,12 @@ a:focus {
 .navbar-right {
   margin-right: 100px;
 }
-.navbar-right li:nth-child(2) {
-  border-right: 1px solid #e7e7e7;
-}
 .navbar-right li {
   height: 100%;
   width: 109px;
   text-align: center;
   padding-top: 11px;
   cursor: pointer;
-  border-left: 1px solid #ddd;
 }
 .navbar-right li a {
   color: #999999!important;
@@ -108,25 +104,25 @@ a:focus {
 }
 /* header section */
 .header {
-  height: 700px;
+  height: 500px;
   width: 100%;
   background-image: url('../assets/header/1.jpg');
   background-size: cover;
   background-position: center;
 }
 .header .overlayHeader {
-  height: 700px!important;
+  height: 500px!important;
   width: 100%;
   background-color: rgba(0, 0, 0, 0.5);
 }
 .header .overlayHeader h1 {
   letter-spacing: 2px;
-  font-size: 55px;
-  font-family: 'Roboto', sans-serif;
-  font-weight: 500;
+  font-size: 68px;
+  font-family: "Source Sans Pro", Calibri, Candara, Arial, sans-serif;
+  font-weight: 300;
   color: #fff;
   text-align: center;
-  padding-top: 300px;
+  padding-top: 230px;
   margin-bottom: 0px;
   margin-top: 0px;
 }
@@ -139,7 +135,7 @@ a:focus {
   font-weight: 300;
 }
 .header .overlayHeader form {
-  margin: 80px auto;
+  margin: 40px auto;
   display: table;
   float: none;
 }
