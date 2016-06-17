@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html>
 	<head>
 		<title>Campus Trade In | Search Books Online | Top Ranked Website of the Year</title>
@@ -68,7 +69,7 @@
 		  		<div class="col-lg-6 itemModelForms tab-content">
 		  			<!-- login form -->
 				    <div role="tabpanel" class="tab-pane active itemLoginForm" id="login">
-				    	<form>
+				    	<form name="example_form">
 				    		<button> 
 					    		<span>
 					    			<i class="fa fa-facebook-official" aria-hidden="true"></i>
@@ -76,8 +77,8 @@
 					    		Log in with Facebook 
 					    	</button>
 					    	<p>Or</p>
-					    	<input type="text" class="form-control" placeholder="Email" required>
-					    	<input type="password" class="form-control" placeholder="Password" required>
+					    	<input type="email" class="form-control" placeholder="Email" name="email" required>
+					    	<input type="password" class="form-control" placeholder="Password" name="password" required>
 					    	<button type="submit" class="formButton"> 
 					    		login
 					    	</button>
@@ -85,7 +86,7 @@
 				    </div>
 				    <!-- signup form -->
 				    <div role="tabpanel" class="tab-pane itemSignUpForm" id="signup">
-				    	<form>
+				    	<form name="example_form2">
 				    		<button> 
 					    		<span>
 					    			<i class="fa fa-facebook-official" aria-hidden="true"></i>
@@ -93,9 +94,9 @@
 					    		Log in with Facebook 
 					    	</button>
 					    	<p>Or</p>
-					    	<input type="text" class="form-control" placeholder="Full Name" required>
-					    	<input type="Email" class="form-control" placeholder="Email" required>
-					    	<input type="password" class="form-control" placeholder="Password" required>
+					    	<input type="text" class="form-control" placeholder="Full Name" name="fullName" required>
+					    	<input type="Email" class="form-control" placeholder="Email" name="emailSignUp" required>
+					    	<input type="password" class="form-control" placeholder="Password" name="passwordSignUp" required>
 					    	<select class="form-control">
 					    		<option>Witchia State University</option>
 					    		<option>Kansas State University</option>
@@ -260,6 +261,7 @@
 		<script src="js/backstretch.min.js"></script>
 		<script src="js/wow.js"></script>
 		<script src="js/owl.carousel.js"></script>
+		<script src="js/validator.js"></script>
 		<script src="js/custom.js"></script>
 	</body>
 </html>

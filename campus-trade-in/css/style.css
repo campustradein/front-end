@@ -501,9 +501,9 @@ a:focus {
 }
 /* Video Section */
 .video {
-  height: 450px;
+  height: 485px;
   width: 100%;
-  background-color: #ddd;
+  background-color: #eee;
 }
 .video .itemContentVideo h1 {
   margin-bottom: 0px;
@@ -551,7 +551,7 @@ a:focus {
   text-align: center;
   background-color: #2780E3;
   color: #fff;
-  padding-top: 12px;
+  padding-top: 9px;
   border-radius: 100px;
 }
 .video .itemVideoSection {
@@ -576,7 +576,7 @@ footer p {
   font-size: 10px;
   color: #4f4f4f;
   text-align: center;
-  padding-top: 40px;
+  padding-top: 42px;
 }
 /* ====================================================
 

@@ -100,3 +100,59 @@
     $('#loginUser').on('click', function(){
         $('#targetLogInUser').trigger('click');
     });
+
+
+// 7. form validation library
+    
+    // login form 
+
+    var validator = new FormValidator('example_form', [{
+        name: 'req',
+        display: 'required',
+        rules: 'required'
+    }, {
+        name: 'password',
+        rules: 'required'
+    }, {
+        name: 'email',
+        rules: 'valid_email',
+        depends: function() {
+            return Math.random() > .5;
+        }
+    }, {
+        name: 'minlength',
+        display: 'min length',
+        rules: 'min_length[8]'
+    }], function(errors, event) {
+        if (errors.length > 0) {
+            alert('errors');
+        }
+    });
+
+    // sign up form 
+
+    var validator = new FormValidator('example_form2', [{
+        name: 'req',
+        display: 'required',
+        rules: 'required'
+    }, {
+        name: 'passwordSignUp',
+        rules: 'required'
+    }, {
+        name: 'fullName',
+        rules: 'required'
+    },  {
+        name: 'emailSignUp',
+        rules: 'valid_email',
+        depends: function() {
+            return Math.random() > .5;
+        }
+    }, {
+        name: 'minlength',
+        display: 'min length',
+        rules: 'min_length[8]'
+    }], function(errors, event) {
+        if (errors.length > 0) {
+            alert('errors');
+        }
+    });
