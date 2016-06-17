@@ -6,27 +6,19 @@
 	1. Customized navigation effect on scrolling
 	2. backstrech image flipper header section. see documentation ( http://srobbin.com/jquery-plugins/backstretch/ )
     3. activator on sign up or login form. when clicks it will activate the current button 
-
+    4. Featured Books Carousel. see documentation ( http://www.owlgraphic.com/owlcarousel/ )
+    5. Swing Scroll to top. Used for the arrow on the right side, which takes you up to the top
 */
 
 /* 1. navigation scroll effect */
 
-    var navigation = $('.header').offset().top + 10;
+    var navigation = $('.header').offset().top + 200;
     $(document).scroll(function(){
         if($(this).scrollTop() > navigation){
-            // $('.navbar-default').css({
-            //     'background-color':'rgba(43,51,65,0.5)',
-            //     'color':'#fff'
-            // });
-            // $('.navbar-default .navbar-brand').css({
-            //     'color':'#fff'
-            // });
-            // $('.navbar-right li a').css({
-            //     'color':'#fff',
-            // });
-            // $('.navbar-right li').css({
-            //     'border':'none'
-            // });
+            $('.ArrowUp').show();
+        }
+        else{
+            $('.ArrowUp').hide();
         }
     });
 
@@ -57,6 +49,8 @@
         owl.trigger('owl.prev');
     })
  
+/* 4. owl carousel */
+
     owl.owlCarousel({
      
         // Most important owl features
@@ -82,3 +76,19 @@
 
     });
 
+// navigation scroll/swing code you can customize it . see documentation for furhter details
+
+    $(".scroll").on('click',function(event){
+         event.preventDefault();
+         //calculate destination place
+         var dest=0;
+         if($(this.hash).offset().top > $(document).height()-$(window).height()){
+              dest=$(document).height()-$(window).height();
+         }else{
+              dest=$(this.hash).offset().top - 50;
+         }
+         //go to destination
+         $('html,body').animate({scrollTop:dest}, 1000,'swing');
+    });
+
+      

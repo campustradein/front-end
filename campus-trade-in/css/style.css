@@ -334,6 +334,22 @@ a:focus {
 .modalCustom .itemModelForms .itemSignUpForm .formButton {
   background-color: #2780e3;
 }
+/* Arrow for pushing back to the top */
+.ArrowUp {
+  height: 49px;
+  width: 49px;
+  background-color: #2780e3;
+  position: fixed;
+  right: 50px;
+  bottom: 100px;
+  z-index: 999999999;
+  border-radius: 100px;
+  color: #fff;
+  text-align: center;
+  padding-top: 15px;
+  display: none;
+  cursor: pointer;
+}
 /* Featured Books Section */
 .featuredBooks {
   height: 650px;
