@@ -30,6 +30,23 @@ a:active,
 a:focus {
   outline: none;
 }
+#messages {
+  height: 65px;
+  margin-top: 10px;
+  float: left;
+  width: 100%;
+  padding: 0px;
+  margin-left: 0px;
+  margin: 10px auto;
+  display: table;
+  float: none;
+  position: relative;
+  right: 45px;
+}
+#messages small {
+  color: red;
+  text-align: center;
+}
 /* 	Navigation Section */
 .navbar-default {
   background-color: #fff;

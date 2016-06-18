@@ -12,6 +12,7 @@
 		<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
 		<link rel="stylesheet" type="text/css" href="css/animate.css">
 		<link rel="stylesheet" type="text/css" href="css/font-awesome.css">
+		<link rel="stylesheet" type="text/css" href="css/formValidation.min.css">
 		<link rel="stylesheet" type="text/css" href="css/style.css">
 		<link rel="stylesheet" href="css/owl.carousel.css">
 		<link rel="stylesheet" href="css/owl.theme.css">
@@ -70,7 +71,7 @@
 		  			<img src="assets/ico/tooltip.png" id="tooltip">
 		  			<!-- login form -->
 				    <div role="tabpanel" class="tab-pane active itemLoginForm" id="login">
-				    	<form>
+				    	<form id="signinForm"> 
 				    		<button> 
 					    		<span>
 					    			<i class="fa fa-facebook-official" aria-hidden="true"></i>
@@ -78,8 +79,10 @@
 					    		Log in with Facebook 
 					    	</button>
 					    	<p>Or</p>
-					    	<input type="email" class="form-control" placeholder="Email" name="email" required>
-					    	<input type="password" class="form-control" placeholder="Password" name="password" required>
+					    	<input type="text" class="form-control" placeholder="Username" name="username">
+					    	<div class="col-xs-5 messageContainer"></div>
+					    	<input type="password" class="form-control" placeholder="Password" name="password">
+					    	<div class="col-xs-5 messageContainer"></div>
 					    	<button type="submit" class="formButton"> 
 					    		login
 					    	</button>
@@ -262,7 +265,55 @@
 		<script src="js/backstretch.min.js"></script>
 		<script src="js/wow.js"></script>
 		<script src="js/owl.carousel.js"></script>
-		<script src="js/validator.js"></script>
+		<script src="js/formValidation.min.js"></script>
+		<script src="js/bootstrap.min.js"></script>
 		<script src="js/custom.js"></script>
+		<script>
+		
+		    $('#signinForm').formValidation({
+		        framework: 'bootstrap',
+		       	err: {
+            		container: function($field, validator) {
+		                // Look at the markup
+		                //  <div class="col-xs-4">
+		                //      <field>
+		                //  </div>
+		                //  <div class="col-xs-5 messageContainer"></div>
+		                return $field.parent().next('.messageContainer');
+            		}
+        		},
+                icon: {
+		            valid: 'glyphicon glyphicon-ok',
+		            invalid: 'glyphicon glyphicon-remove',
+		            validating: 'glyphicon glyphicon-refresh'
+		        },
+		        fields: {
+		            username: {
+		                validators: {
+		                    notEmpty: {
+		                        message: 'The username is required'
+		                    },
+		                    stringLength: {
+		                        min: 6,
+		                        max: 30,
+		                        message: 'The username must be more than 6 and less than 30 characters long'
+		                    },
+		                    regexp: {
+		                        regexp: /^[a-zA-Z0-9_]+$/,
+		                        message: 'The username can only consist of alphabetical, number and underscore'
+		                    }
+		                }
+		            },
+		            password: {
+		                validators: {
+		                    notEmpty: {
+		                        message: 'The password is required'
+		                    }
+		                }
+		            }
+		        }
+		    });
+
+		</script>
 	</body>
 </html>
