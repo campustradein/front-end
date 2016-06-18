@@ -156,3 +156,17 @@
             alert('errors');
         }
     });
+
+    // login/signup tooltip
+
+    $('#targetLogInUser').on('click',function(){
+        $('#tooltip').css({
+            'margin-left':'120px'
+        });
+    });
+
+    $('#targetRegisterUser').on('click',function(){
+        $('#tooltip').css({
+            'margin-left':'250px'
+        });
+    });

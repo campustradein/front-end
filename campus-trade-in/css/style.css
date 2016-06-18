@@ -198,11 +198,13 @@ a:focus {
 }
 .modalCustom h1 {
   color: #fff;
-  font-family: 'Lobster Two';
+  font-family: 'Roboto';
   margin-bottom: 0px;
   padding-bottom: 0px;
   position: relative;
   top: 42px;
+  font-weight: 300;
+  letter-spacing: 1px;
   text-align: center;
 }
 .modalCustom h6 {
@@ -212,7 +214,9 @@ a:focus {
   color: #fff;
   position: relative;
   top: 49px;
-  font-size: 14px;
+  font-size: 15px;
+  font-weight: 400;
+  letter-spacing: 1px;
 }
 .modalCustom ul {
   margin: 100px auto;
@@ -231,7 +235,7 @@ a:focus {
 }
 .modalCustom ul li a {
   color: #4f4f4f;
-  font-weight: 700;
+  font-weight: 500;
 }
 .modalCustom ul li a:hover {
   color: #fff;
@@ -250,6 +254,10 @@ a:focus {
   left: 0px;
   right: 0px;
   padding: 0px;
+}
+.modalCustom .itemModelForms img {
+  margin-top: -41px;
+  margin-left: 120px;
 }
 .modalCustom .itemModelForms .itemLoginForm button {
   height: 50px;
