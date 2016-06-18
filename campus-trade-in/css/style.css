@@ -1,14 +1,14 @@
-/* ============================== 
-	
+/* ==============================
+
 	Project Name : Campus Trade In
 	Author 		 : Campus Trade In
 	Author URI   : https://www.campustradein.com/
 	Project Last Updated : 13/06/2016
-	
-	CSS Details  : 
 
-	1. Default Variables 
-	2. navigation 
+	CSS Details  :
+
+	1. Default Variables
+	2. navigation
 	3. header section
 	4. login/signup form modal
 
@@ -51,7 +51,7 @@ a:focus {
 .navbar-default {
   background-color: #fff;
   border-radius: 0px;
-  height: 60px;
+  height: 30px;
   margin-bottom: 0px;
   padding-bottom: 0px;
   border: none;
@@ -63,12 +63,11 @@ a:focus {
 }
 .navbar-default .navbar-brand {
   color: #2780e3;
-  font-size: 30px;
+  font-size: 20px;
   font-family: 'Roboto';
-  font-weight: 300;
+  /*font-weight: 600;*/
   padding-left: 100px;
   padding-top: 16px;
-  letter-spacing: 1px;
   cursor: pointer;
 }
 .navbar-default .navbar-brand:hover {
@@ -133,10 +132,9 @@ a:focus {
   background-color: rgba(0, 0, 0, 0.5);
 }
 .header .overlayHeader h1 {
-  letter-spacing: 2px;
-  font-size: 68px;
+  font-size: 55px;
   font-family: 'Roboto', sans-serif;
-  font-weight: 100;
+  font-weight: 200;
   color: #fff;
   text-align: center;
   padding-top: 162px;
@@ -148,19 +146,21 @@ a:focus {
   font-size: 18px;
   color: #fff;
   text-align: center;
-  letter-spacing: 1px;
   font-weight: 300;
 }
 .header .overlayHeader form {
   margin: 40px auto;
   display: table;
   float: none;
+  -moz-border-radius:3px;
+  -webkit-border-radius:3px;
+  border-radius:3px;
 }
 .header .overlayHeader form .form-control {
   display: block;
   min-width: 400px;
   font-family: 'Lato', sans-serif;
-  height: 55px;
+  height: 40px;
   padding: 6px 12px;
   font-size: 14px;
   padding: 0px 20px 0px 20px;
@@ -181,7 +181,7 @@ a:focus {
   transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s;
 }
 .header .overlayHeader form button {
-  height: 55px;
+  height: 40px;
   width: 150px;
   border-radius: 0px;
   background-color: #2780e3;
@@ -191,15 +191,39 @@ a:focus {
   font-size: 14px;
   font-weight: 400;
   text-transform: uppercase;
-  letter-spacing: 2px;
   transition: all 0.5s ease;
   -webkit-transition: all 0.5s ease;
   -o-transition: all 0.5s ease;
   -moz-transition: all 0.5s ease;
+  -moz-box-shadow:inset 0px 1px 0px 0px #54a3f7;
+  -webkit-box-shadow:inset 0px 1px 0px 0px #54a3f7;
+  box-shadow:inset 0px 1px 0px 0px #54a3f7;
+  text-decoration:none;
+  text-shadow:0px 1px 0px #154682;
+  background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #007dc1), color-stop(1, #0061a7));
+  background:-moz-linear-gradient(top, #007dc1 5%, #0061a7 100%);
+  background:-webkit-linear-gradient(top, #007dc1 5%, #0061a7 100%);
+  background:-o-linear-gradient(top, #007dc1 5%, #0061a7 100%);
+  background:-ms-linear-gradient(top, #007dc1 5%, #0061a7 100%);
+  background:linear-gradient(to bottom, #007dc1 5%, #0061a7 100%);
+  filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#007dc1', endColorstr='#0061a7',GradientType=0);
+  background-color:#007dc1;
+  border:1px solid #124d77;
 }
 .header .overlayHeader form button:hover {
   color: #fff;
-  background-color: #2780e3;
+  background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #0061a7), color-stop(1, #007dc1));
+  background:-moz-linear-gradient(top, #0061a7 5%, #007dc1 100%);
+  background:-webkit-linear-gradient(top, #0061a7 5%, #007dc1 100%);
+  background:-o-linear-gradient(top, #0061a7 5%, #007dc1 100%);
+  background:-ms-linear-gradient(top, #0061a7 5%, #007dc1 100%);
+  background:linear-gradient(to bottom, #0061a7 5%, #007dc1 100%);
+  filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#0061a7', endColorstr='#007dc1',GradientType=0);
+  background-color:#0061a7;
+}
+.header .overlayHeader form button:active {
+   position:relative;
+	top:1px;
 }
 /* modal form section */
 .modalCustom .closeButton {
@@ -221,7 +245,6 @@ a:focus {
   position: relative;
   top: 42px;
   font-weight: 300;
-  letter-spacing: 1px;
   text-align: center;
 }
 .modalCustom h6 {
@@ -233,7 +256,6 @@ a:focus {
   top: 49px;
   font-size: 15px;
   font-weight: 400;
-  letter-spacing: 1px;
 }
 .modalCustom ul {
   margin: 100px auto;
@@ -285,7 +307,6 @@ a:focus {
   background-color: #3B5998;
   color: #fff;
   font-family: 'Roboto', sans-serif;
-  letter-spacing: 1px;
   border: none;
 }
 .modalCustom .itemModelForms .itemLoginForm button span {
@@ -332,7 +353,6 @@ a:focus {
   background-color: #3B5998;
   color: #fff;
   font-family: 'Roboto', sans-serif;
-  letter-spacing: 1px;
   border: none;
 }
 .modalCustom .itemModelForms .itemSignUpForm button span {
@@ -394,7 +414,6 @@ a:focus {
   font-family: 'Roboto', sans-serif;
   color: #333;
   text-transform: uppercase;
-  letter-spacing: 1px;
   padding-top: 70px;
   margin-top: 0px;
 }
