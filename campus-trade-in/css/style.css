@@ -577,6 +577,33 @@ a:focus {
   display: table;
   margin: 24px auto;
 }
+/* sectionImageContent3 */
+.sectionImageContent3 {
+  background-color: #fff!important;
+  height: 450px;
+  width: 100%;
+  background-color: #fff;
+}
+.sectionImageContent3 h1 {
+  text-align: center;
+  font-family: 'Roboto';
+  padding-top: 40px;
+  font-weight: 400;
+}
+.sectionImageContent3 p {
+  line-height: 30px;
+  color: #4f4f4f;
+  font-size: 18px;
+  text-align: center!important;
+  font-weight: 400;
+  font-family: 'Lato';
+  padding-top: 5px;
+}
+.sectionImageContent3 img {
+  float: none;
+  display: table;
+  margin: 24px auto;
+}
 /* Video Section */
 .video {
   height: 485px;
