@@ -102,13 +102,6 @@
     });
 
 
-// 7. form validation library
-    
-    // login form 
-    
-
-
-
 
 // 8. login/signup tooltip
 
