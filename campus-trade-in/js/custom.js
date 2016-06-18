@@ -116,3 +116,8 @@
             'margin-left':'250px'
         });
     });
+
+// 9. wow js plugin 
+
+    new WOW().init();
+            
