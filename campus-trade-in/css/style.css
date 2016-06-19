@@ -674,6 +674,30 @@ a:focus {
   font-family: 'Lato';
   padding-top: 5px;
 }
+/* reset password page */
+.resetPasswordPage .itemNewPassword {
+  margin: 100px auto;
+  display: table;
+  float: none;
+  padding: 0px;
+  width: 50%;
+}
+.resetPasswordPage .itemNewPassword h4 {
+  color: #2780e3;
+  font-size: 24px;
+  margin-bottom: 20px;
+  padding: 0px;
+  margin-left: 0px;
+}
+.resetPasswordPage .itemNewPassword button {
+  height: 40px;
+  width: 100px;
+  border: none;
+  background-color: #2780e3;
+  color: #fff;
+  font-family: 'Roboto';
+  letter-spacing: 1px;
+}
 /* footer section */
 footer {
   height: 100px;
