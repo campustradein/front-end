@@ -491,67 +491,47 @@
 .video{
 	height:485px;
 	width:100%;
-	background-color:#F6F8F9;
-	.itemContentVideo{
-		h1{
-		    margin-bottom: 0px;
-		    margin-top: 0px;
-		    padding-top: 90px;
+	background-image:url('../assets/video/buy.png');
+	background-position:center;
+	background-size:cover;
+	.overlayVideo{
+		height:485px;
+		width:100%;
+		background-color:@defaultThemeColor;
+		position:absolute;
+		span{
+			padding-right:10px;
+		}
+		button{
+			margin: 283px auto;
+		    display: table;
+		    float: none;
+		    height: 100px;
+		    width: 280px;
+		    background-color: rgba(0,0,0,0.5);
+		    color: #fff;
+		    border: none;
+		    border-radius: 100px;
 		    font-family: 'Roboto';
-		    text-align:left;
-		    font-weight:400;
-		}
-		p{
-			padding-top: 30px;
-		    line-height: 23px;
-		    color: #4f4f4f;
-		    font-size: 16px;
-		    font-weight: 400;
-		    font-family: 'Lato';
-		}
-		ul{
-			list-style: none;
-		    padding: 0px;
-		    padding-top: 15px;
-		    li:nth-child(2){
-		    	padding-top:30px;
-		    }
-		    li:nth-child(3){
-		    	padding-top:30px;
-		    }
-		    li{
-		    	color: #4f4f4f;
-			    font-size: 16px;
-			    font-weight: 400;
-			    font-family: 'Lato';
-		    	span{
-		    		padding-left: 20px;
-				    position: relative;
-				    top: 8px;
-		    	}
-	    		div{
-			    	float: left;
-				    height: 40px;
-				    width: 40px;
-				    text-align: center;
-				    background-color: #2780E3;
-				    color: #fff;
-				    padding-top: 9px;
-				    border-radius: 100px;
-			    }
+		    font-size: 20px;
+		    transition:all 0.1s ease;
+		    -webkit-transition:all 0.1s ease;
+		    -o-transition:all 0.1s ease;
+		    text-align: center;
+		    &:hover{
+		    	width:300px;
 		    }
 		}
 	}
-	.itemVideoSection{
-		height: 300px;
-	    width: 50%;
-	    margin: 100px auto;
-	    background-color:#000;
-	    margin-bottom:0px;
-	    video{
-	    	height:300px;
-	    	width:100%;
-	    }
+}
+.videoVimeo{
+	height:500px;
+	width:100%;
+	background-color:#fff;
+	margin-top:88px;
+	iframe{
+		height:500px;
+		width:100%;
 	}
 }
 
