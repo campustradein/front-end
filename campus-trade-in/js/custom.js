@@ -14,12 +14,20 @@
 /* 1. navigation scroll effect */
 
     var navigation = $('.header').offset().top + 200;
+    var navigation2 =$('.header').offset().top + 20;
     $(document).scroll(function(){
         if($(this).scrollTop() > navigation){
             $('.ArrowUp').show();
+
         }
         else{
             $('.ArrowUp').hide();
+        }
+        if($(this).scrollTop() > navigation2){
+            $('.navbar-default').hide();
+        }
+        else{
+            $('.navbar-default').show();
         }
     });
 
