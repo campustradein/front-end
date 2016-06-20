@@ -47,6 +47,13 @@ a:focus {
   color: red;
   text-align: center;
 }
+.alert {
+  padding: 0px;
+  padding-top: 10px;
+  color: green;
+  font-size: 15px;
+  display: none;
+}
 /* 	Navigation Section */
 .navbar-default {
   background-color: #fff;
